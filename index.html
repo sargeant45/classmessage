@@ -5,13 +5,13 @@
     <script>
     function messageshow() {
       var m = document.getElementById('message').value;
-      document.getElementById('show').innerHTML = m;
+      document.getElementById('show').innerHTML = m.toUpperCase();
     }
     </script>
   </head>
   <body style="font-family: 'Roboto', sans-serif;">
     <textarea cols="30" rows="5" id="message">Put your message here to show on screen.</textarea>
     <button onclick="messageshow()">Show</button>
-    <b><h2 id="show" style="font-size: 82px;"></h2></b>
+    <b><h2 id="show" style="font-size: 96px;"></h2></b>
   </body>
 </html>
